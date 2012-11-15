@@ -21,8 +21,8 @@
 # limitations under the License.
 #
 
-include_recipe "nodejs"
 
+return
 package "curl"
 
 bash "install npm - package manager for node" do
